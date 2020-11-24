@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Portfolio from './pages/Portfolio';
-import { Link } from "react-router-dom";
+
 
 function App() {
   return (
@@ -16,9 +16,6 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/portfolio" component={Portfolio} />
-      {/* <Home/> */}
-      {/* <Contact/> */}
-      {/* <Portfolio/> */}
       </Router>
     </div>
   );

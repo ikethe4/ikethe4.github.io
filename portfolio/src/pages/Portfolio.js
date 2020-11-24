@@ -5,6 +5,7 @@ import Password from "../photos/password.png";
 import Photophriend from "../photos/photophriend.png";
 import Schedule from "../photos/schedule.png";
 import Webpage from "../photos/webpage.png"
+import Project from "../components/project"
 
 
 
@@ -21,7 +22,11 @@ function Portfolio(props){
         Portfolio</h1>
     </div>
     <div className="row">
-        <figure className="col-md-4">
+        <Project/>
+        <Project/>
+        <Project/>
+
+        {/* <figure className="col-md-4">
             <img src={Schedule} className="img-thumbnail" alt="schedule"/>
             <a href="https://ikethe4.github.io/day-planner/" className="link-text">Work Day Schedule Planner</a>
         </figure>
@@ -40,7 +45,7 @@ function Portfolio(props){
         <figure className="col-md-4">   
             <img src={Earbud} className="img-thumbnail" alt="earbud"/>
             <a href="https://earbudteam8.herokuapp.com/" className="link-text">EarBud</a>
-        </figure>
+        </figure> */}
     </div>
       </>
     )
