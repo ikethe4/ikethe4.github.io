@@ -1,15 +1,17 @@
-import React from "react";
-import Schedule from "../photos/schedule.png"
+import React, {useState} from "react";
 
-function Project() {
-  return (
-<>
-<figure className="col-md-4">
-<img src={Schedule} className="img-thumbnail" alt="schedule"/>
-<a href="https://ikethe4.github.io/day-planner/" className="link-text">Work Day Schedule Planner</a>
-</figure>
-</>
-  );
+function Project(props) {
+    const {source, alt, href, linkText} = props
+
+
+    return (
+        <>
+            <figure className="col-md-4">
+                <img src= {source} className="img-thumbnail" alt={alt} />
+                <a href={href} className="link-text">{linkText}</a>
+            </figure>
+        </>
+    );
 }
 
 export default Project;
