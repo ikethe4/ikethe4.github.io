@@ -12,19 +12,16 @@ function Contact(props){
         <h1 className="contact-header">
             Contact
         </h1>
-        <form>
-            <div className="form-group">
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" className="form-control" id="name" placeholder="Name"/>
-            </div>
-            <div className="form-group">
-              <label for="formGroupExampleInput2">Email</label>
-              <input type="text" className="form-control" id="email" placeholder="Email"/>
-              <label for="message">Message</label> 
-                <textarea className="form-control" id="message-textbox" rows="3" placeholder="Message"></textarea>
-            </div>
-            <button type="button" className="btn btn-primary btn-lg">Submit</button>
-          </form>   
+       <ul>
+         <li>Email: isaac@iaivphotography.com</li>
+         <li>LinkedIn:
+           <a href= "https://www.linkedin.com/in/isaac-arnold-iv-6b019b157/" target= "_blank"> Isaac Arnold IV</a>
+           </li>
+           <li>GitHub:
+           <a href= "https://github.com/ikethe4" target= "_blank"> ikethe4</a>
+         </li>
+       </ul>
+    
     </div>  
         </>
     )
